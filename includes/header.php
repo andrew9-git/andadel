@@ -1,6 +1,8 @@
 
 <?php
-
+ob_start();
+session_start();
+include_once('includes/functions.php');
 function andadelHeader($title, $active, $description)
 {?>
 
