@@ -3,6 +3,7 @@
 ob_start();
 session_start();
 include_once('includes/functions.php');
+$csrf = csrf_token();
 function andadelHeader($title, $active, $description)
 {?>
 
